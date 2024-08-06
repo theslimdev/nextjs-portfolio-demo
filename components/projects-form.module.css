@@ -1,0 +1,53 @@
+.projects-form {
+}
+
+.projects-form label {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projects-form .projectsform-inputgroup {
+  margin-bottom: 20px;
+}
+
+.projects-form input,
+.projects-form textarea {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  line-height: 35px;
+  color: #000000;
+  padding: 5px;
+}
+
+.projects-form input::file-selector-button {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.projects-form input::file-selector-button:hover,
+.projects-form input::file-selector-button:active,
+.projects-form input::file-selector-button:focus {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.projects-form button {
+  border-style: none;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.projects-form button:hover {
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}

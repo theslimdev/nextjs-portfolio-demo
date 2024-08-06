@@ -1,0 +1,24 @@
+.img-container {
+  position: relative;
+}
+.img-container img {
+  width: 100%;
+}
+
+.content-container {
+}
+
+.project-link {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}

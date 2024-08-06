@@ -1,0 +1,44 @@
+.projects-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  height: 375px;
+}
+
+.content-container {
+  padding: 10px 12px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 150px;
+}
+
+.content-container p {
+  margin-bottom: 35px;
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-link {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
